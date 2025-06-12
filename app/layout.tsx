@@ -3,6 +3,12 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import Script from "next/script"
+import emailjs from '@emailjs/browser'
+
+// Initialize EmailJS with your public key
+if (typeof window !== 'undefined') {
+  emailjs.init("49m0KayoEPyBegiCn")
+}
 
 const inter = Inter({ subsets: ["latin"] })
 
