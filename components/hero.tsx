@@ -41,7 +41,7 @@ export default function Hero() {
           </Button>
           {/* Resume Download Button - Add your resume file to public folder */}
           <Button asChild variant="outline" size="lg">
-            <a href="/resume.pdf" download="Salman_Alameer_Resume.pdf" onClick={trackResumeDownload}>
+            <a href="/Salman_Alameer_Resume.pdf" download="Salman_Alameer_Resume.pdf" onClick={trackResumeDownload}>
               <Download className="w-4 h-4 mr-2" />
               Download Resume
             </a>
