@@ -20,46 +20,7 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  {
-    id: "wisedose",
-    title: "WiseDose - Medication Reminder App",
-    description:
-      "A comprehensive mobile application that helps users manage their daily medication schedules with secure authentication and health data encryption. Built with focus on user privacy and healthcare compliance.",
-    image: "/placeholder.svg?height=300&width=500",
-    technologies: ["Flutter", "Firebase", "Dart", "Authentication"],
-    features: [
-      "Secure user authentication and data encryption",
-      "Real-time medication reminders with custom schedules",
-      "Health metrics tracking and analytics",
-      "Firebase integration for cross-device data sync",
-      "HIPAA-compliant data handling practices",
-    ],
-    year: "2025",
-    type: "Mobile Application",
-    category: "Healthcare",
-    githubUrl: "https://github.com/Alameer32/wisedose",
-    // liveUrl: "https://wisedose-demo.com",
-    isUniversity: true,
-  },
-  {
-    id: "realtime-messaging",
-    title: "Real-time Messaging Application",
-    description:
-      "A modern messaging platform with end-to-end encryption, real-time message delivery, and intuitive user interface design. Supports multimedia messaging and group conversations.",
-    image: "/placeholder.svg?height=300&width=500",
-    technologies: ["Flutter", "Firebase", "Real-time Database"],
-    features: [
-      "End-to-end encryption for secure messaging",
-      "Real-time message delivery with read receipts",
-      "Cross-platform compatibility (iOS & Android)",
-      "Group chat functionality with admin controls",
-    ],
-    year: "2025",
-    type: "Mobile Application",
-    category: "Communication",
-    githubUrl: "https://github.com/Alameer32/flutter_chat_app",
-    isUniversity: false,
-  },
+  
   // {
   //   id: "fullstack-web",
   //   title: "Full-Stack Web Application",
@@ -146,7 +107,7 @@ export const projects: Project[] = [
     isUniversity: true
   },
   
-
+ 
   {
     id: "Cook&Go",
     title: "Food delivery platform",
@@ -203,7 +164,49 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/Alameer32/Asteroids", 
     liveUrl: "", // N/A for desktop game
     isUniversity: true
+  },
+  {
+    id: "wisedose",
+    title: "WiseDose - Medication Reminder App",
+    description:
+      "A comprehensive mobile application that helps users manage their daily medication schedules with secure authentication and health data encryption. Built with focus on user privacy and healthcare compliance.",
+    image: "/placeholder.svg?height=300&width=500",
+    technologies: ["Flutter", "Firebase", "Dart", "Authentication"],
+    features: [
+      "Secure user authentication and data encryption",
+      "Real-time medication reminders with custom schedules",
+      "Health metrics tracking and analytics",
+      "Firebase integration for cross-device data sync",
+      "HIPAA-compliant data handling practices",
+    ],
+    year: "2025",
+    type: "Mobile Application",
+    category: "Healthcare",
+    githubUrl: "https://github.com/Alameer32/wisedose",
+    // liveUrl: "https://wisedose-demo.com",
+    isUniversity: true,
+  },
+
+  {
+    id: "realtime-messaging",
+    title: "Real-time Messaging Application",
+    description:
+      "A modern messaging platform with end-to-end encryption, real-time message delivery, and intuitive user interface design. Supports multimedia messaging and group conversations.",
+    image: "/placeholder.svg?height=300&width=500",
+    technologies: ["Flutter", "Firebase", "Real-time Database"],
+    features: [
+      "End-to-end encryption for secure messaging",
+      "Real-time message delivery with read receipts",
+      "Cross-platform compatibility (iOS & Android)",
+      "Group chat functionality with admin controls",
+    ],
+    year: "2025",
+    type: "Mobile Application",
+    category: "Communication",
+    githubUrl: "https://github.com/Alameer32/flutter_chat_app",
+    isUniversity: false,
   }
+
 ]
 
 /**
