@@ -170,7 +170,7 @@ export const projects: Project[] = [
     title: "WiseDose - Medication Reminder App",
     description:
       "A comprehensive mobile application that helps users manage their daily medication schedules with secure authentication and health data encryption. Built with focus on user privacy and healthcare compliance.",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/WiseDose.jpg?height=200&width=300",
     technologies: ["Flutter", "Firebase", "Dart", "Authentication"],
     features: [
       "Secure user authentication and data encryption",
@@ -205,6 +205,29 @@ export const projects: Project[] = [
     category: "Communication",
     githubUrl: "https://github.com/Alameer32/flutter_chat_app",
     isUniversity: false,
+  },
+  {
+    id: "coursemark",
+    title: "Course Mark Management Web App",
+    description:
+      "A full-stack web application designed to streamline the management and monitoring of student performance. Built for academic institutions with role-based access control for Lecturers, Students, Advisors, and Admins.",
+    image: "/coursemark.png?height=200&width=300",
+    technologies: ["Vue.js", "PHP Slim", "MySQL", "Chart.js", "REST API"],
+    features: [
+      "Role-based access control for 4 user types (Lecturer, Student, Advisor, Admin)",
+      "Secure login and authentication for all roles",
+      "Continuous assessment and final exam marks entry with auto-calculation (70/30 split)",
+      "Real-time performance analytics with charts and averages",
+      "What-If simulator and anonymous peer comparison tools for students",
+      "Advisor workspace for monitoring at-risk students and logging consultations",
+      "Bulk CSV upload/download, full reporting features, and mark update notifications",
+      "RESTful API (JSON) with client-side (Vue.js) and server-side (PHP Slim) validation"
+    ],
+    year: "2025",
+    type: "Web Application",
+    category: "Academic Management",
+    githubUrl: "https://github.com/Alameer32/students_mark",
+    isUniversity: true
   }
 
 ]
